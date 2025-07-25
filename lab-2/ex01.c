@@ -14,7 +14,7 @@ int main() {
     printf("You entered %.1f\n", f);
 
     printf("Please enter a character: ");
-    scanf(" %c", &c);  // Space before %c to avoid newline issues
+    scanf(" %c", &c);
     printf("You entered %c\n", c);
 
     return 0;
